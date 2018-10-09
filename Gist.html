@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gistの使い方</title>
+  </head>
+  <body>
+    <h1>Gistの使い方</h1>
+    <p>このページではGistの使い方について紹介します。</p>
+
+    <h2>Gistとは</h2>
+    <p>GistとはGitHubの提供している断片コードの共有サービスのこと。</p>
+    <p>GistもGitHubと同様リモートリポジトリである。</p>
+
+    <h2>Gistの特徴</h2>
+    <ul>
+      <li><a href="#h31">コードの一部（断片）を管理することができる</a></li>
+      <li><a href="#h32">無料枠でも非公開にできる</a></li>
+      <li><a href="#h33">GitHubにアカウントが無くても自分のソースや文書を公開できる</a></li>
+      <li><a href="#h34">ブログ等に簡単に張り付けることができる</a></li>
+      <li><a href="#h35">gitコマンドで手元にcloneできる</a></li>
+      <li><a href="#h36">Forkができる</a></li>
+      <li><a href="#h37">1つのエントリーに複数のファイルを置くことができる</a></li>
+      <li><a href="#h38">.gitignoreはローカルだけに置く</a></li>
+      <li><a href="#h39">Github Flavored Markdown(GFM)で書かれたファイルはHTMLに変換されて表示される</a></li>
+    </ul>
+
+    <h3 id="h31">コードの一部（断片）を管理することができる</h3>
+    <p>複数ファイルをまとめて管理しているリポジトリとは違い、1ファイルのみ,1クラスのみ,コードの位置部分のみなどをバージョン管理できる。</p>
+    <p>そのため、メモや短いコードをバージョン管理しながら公開するのに便利である。</p>
+    <h3 id="h32">無料枠でも非公開にできる</h3>
+    <p>GitHubでは無料枠ではリポジトリを非公開にすることが出来ない。</p>
+    <p>しかし、Gistでは非公開にすることができる。</p>
+    <p>※非公開と言っても、URLが分かれば<span style="color: red">誰でもアクセスが可能</span>なことには<span style="color: red">注意</span>。（但し、URLは推測されにくい。）</p>
+    <h3 id="h33">GitHubにアカウントが無くても自分のソースや文書を公開できる</h3><br>
+    <h3 id="h34">ブログ等に簡単に張り付けることができる</h3>
+    <p>通常のバージョン管理とは違いGistで管理しているコードは、ブログ等の他のサイトに公開することが出来る。</p>
+    <h3 id="h35">gitコマンドで手元にcloneできる</h3>
+    <p><a href="">https://gist.github.com/ランダムな値.git ディレクトリ名/</a>
+      ディレクトリ名のディレクトリが作られその中にフォルダ名.mdなどの
+      いくつかのファイルと.git/ディレクトリがcloneされる。</p>
+    <h3 id="h36">Forkができる</h3>
+    <p>Forkでも他の人のコードを自分の所にコピーができる。</p>
+    <h3 id="h37">1つのエントリーに複数のファイルを置くことができる</h3>
+    <p>複数のファイルの表示順序はアルファベット順</p>
+    <h3 id="h38">.gitignoreはローカルだけに置く</h3>
+    <p>Gistに.gitignoreを置くと見せたいファイルよりアルファベット順で前に来てしまい.gitignoreが前面に出てきてしまう。</p>
+    <p>Gist用の.gitignoreはローカルにだけ置くこと。</p>
+    <p>その場合.gitignoreの中に.gitignoreも書く。</p>
+    <h3 id="h39"><a href="https://help.github.com/articles/github-flavored-markdown">Github Flavored Markdown(GFM)</a>で書かれたファイルはHTMLに変換されて表示される</h3>
+    <p>意味のあるファイル名を持ったGFMファイルが先頭に置かれてうまくHTML表示されるにはディレクトリ内のすべてのファイル名を工夫する必要がある。</p>
+    <p>長くなりましたが、次がいよいよ使い方の紹介です。</p>
+
+    <h2>Gistの使い方</h2>
+
+    <h3>Gistを使ってソースコードを保存してみる</h3>
+    <p><a href="https://gist.github.com/" target="_blank">gist(https://gist.github.com/)</a>にアクセスしてください。</p>
+    <img src="img/gist_window.png">
+    <ul>
+      <li>Gist description</li>
+      <p>このコードの説明を書く。</p>
+      <li>name this file…</li>
+      <p>ファイル名を入力する（未入力の場合は自動）。「test_code.<span style="color: red">php</span>」と言ったように<span style="color: red">拡張子を入力すると、そのプログラミング言語とひも付けがされる。</span></p>
+      <li>language</li>
+      <p>言語の指定を行う。</p>
+      <li>indent mode</li>
+      <p>インデントの指定を[スペース/タブ]どちらにするか選択</p>
+      <li>indent size</li>
+      <p>タブで挿入されるスペース数</p>
+      <li>コードの入力欄</li><br>
+      <li>Add Another File</li>
+      <p>入力欄が一つ追加される</p>
+      <li>Create Secret Gist</li>
+      <p>非公開用のGistを作成する</p>
+      <li>Create Public Gist</li>
+      <p>公開用で Gistを作成する</p>
+    </ul>
+
+    <p>今回はこんな感じで記入しました。今回は公開用で保存します。</p>
+    <img src="img/gist_making.jpg" width="800" height="350">
+    <p>以上で保存は完了しました。</p>
+    <p>作成されると以下のように表示されます。</p>
+    <img src="img/gist_save.jpg" width="800" height="350">
+
+    <h3>Gistのバージョン管理は？</h3>
+    <p>どのようにバージョン管理ができるのかテストする。</p>
+    <p>上記のソースコードを編集する。上メニューにある「Edit (編集)」をクリック。</p>
+    <img src="img/gist_edit.png">
+    <p>ソースコードに新しくメソッド関数を追加して、保存します。</p>
+    <p>この場合は、「おやすみなさい関数」を追加してます。</p>
+    <img src="img/gist_add.jpg">
+    <p>上メニューの「Revisions」をクリック。</p>
+    <p>そうすると、オリジナルファイルとの差分が表示される。</p>
+    <img src="img/gist_revisions.jpg">
+    <p>※「View gist @*****」をクリックするとそれぞれのバージョンのソースコードを確認することができます。</p>
+
+    <h3>ソースコードをブログで公開</h3>
+    <p>ソースコードを<span style="color: red">Gistからブログに</span>貼付けてみる。</p>
+    <p>上の「<span style="color: red">Embed this gist</span>」にあるスクリプトをコピーして、ブログに貼付ける。</p>
+    <img src="img/gist_copy.png">
+    <p>下記のようなコードを貼付けることになる。</p>
+    <pre title="">
+      &lt;script src=&quot;https://gist.github.com/yuoishi/4952e29f583fb0398380f929a2c2a5ac.js&quot;&gt;&lt;/script&gt;
+    </pre>
+    <p>張り付けた結果</p>
+    <script src="https://gist.github.com/yuoishi/4952e29f583fb0398380f929a2c2a5ac.js"></script>
+    <p>このようにgistから直接ソースコードを貼付けることができる。</p>
+  </body>
+</html>
