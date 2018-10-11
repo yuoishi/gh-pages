@@ -12,3 +12,35 @@ https://sites.google.com/morijyobi.ac.jp/github/%E3%83%9B%E3%83%BC%E3%83%A0?auth
 issueの画面作成参考ページのリンク
 
 https://seleck.cc/647
+
+A.課題の実装できた課題のタイトル
+
+・github の issuesの使い方
+
+・GithubPagesの作り方と活用方法
+
+・githubのpull requestでLabelや Assigneeの使い方
+
+・github のGistの使い方について
+
+・github の pull requestにあるMilestones の使い方 
+
+B.実装できなかった課題のタイトル
+
+・revert, reset などgitコマンド利用方法の使い方
+
+・githubリポジトリのProjectsタブの活用について
+
+・githubリポジトリのWikiタブの活用について
+
+・githubリポジトリのInsightsタブでの活動分析について
+
+・github のemoticonやLTTMについて
+
+・GitHub と Slack を連携させる方法と利用事例について
+
+・ZenHub for GitHubの活用方法について
+
+C.
+
+D.
