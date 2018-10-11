@@ -23,11 +23,11 @@ A.課題の実装できた課題のタイトル
 
 ・github のGistの使い方について
 
+・revert, reset などgitコマンド利用方法の使い方
+
 ・github の pull requestにあるMilestones の使い方 
 
 B.実装できなかった課題のタイトル
-
-・revert, reset などgitコマンド利用方法の使い方
 
 ・githubリポジトリのProjectsタブの活用について
 
