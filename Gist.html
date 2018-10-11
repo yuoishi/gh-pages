@@ -3,10 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Gistの使い方</title>
+    <style>
+      ul li a{
+        color: black;
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body>
     <h1>Gistの使い方</h1>
-    <p>このページではGistの使い方について紹介します。</p>
 
     <h2>Gistとは</h2>
     <p>GistとはGitHubの提供している断片コードの共有サービスのこと。</p>
@@ -32,12 +37,12 @@
     <p>GitHubでは無料枠ではリポジトリを非公開にすることが出来ない。</p>
     <p>しかし、Gistでは非公開にすることができる。</p>
     <p>※非公開と言っても、URLが分かれば<span style="color: red">誰でもアクセスが可能</span>なことには<span style="color: red">注意</span>。（但し、URLは推測されにくい。）</p>
-    <h3 id="h33">GitHubにアカウントが無くても自分のソースや文書を公開できる</h3><br>
+    <h3 id="h33">GitHubにアカウントが無くても自分のソースや文書を公開できる</h3>
     <h3 id="h34">ブログ等に簡単に張り付けることができる</h3>
     <p>通常のバージョン管理とは違いGistで管理しているコードは、ブログ等の他のサイトに公開することが出来る。</p>
     <h3 id="h35">gitコマンドで手元にcloneできる</h3>
-    <p><a href="">https://gist.github.com/ランダムな値.git ディレクトリ名/</a>
-      ディレクトリ名のディレクトリが作られその中にフォルダ名.mdなどの
+    <p><span style="background: #dddddd">https://gist.github.com/4952e29f583fb0398380f929a2c2a5ac.git Gist/</span>
+      Gistという名のディレクトリが作られその中にcode_test.phpなどの
       いくつかのファイルと.git/ディレクトリがcloneされる。</p>
     <h3 id="h36">Forkができる</h3>
     <p>Forkでも他の人のコードを自分の所にコピーができる。</p>
@@ -59,20 +64,18 @@
     <ul>
       <li>Gist description</li>
       <p>このコードの説明を書く。</p>
-      <li>name this file…</li>
-      <p>ファイル名を入力する（未入力の場合は自動）。「test_code.<span style="color: red">php</span>」と言ったように<span style="color: red">拡張子を入力すると、そのプログラミング言語とひも付けがされる。</span></p>
-      <li>language</li>
-      <p>言語の指定を行う。</p>
-      <li>indent mode</li>
+      <li>Filename including extension...</li>
+      <p>ファイル名を入力する。</p>
+      <li>Indent mode</li>
       <p>インデントの指定を[スペース/タブ]どちらにするか選択</p>
-      <li>indent size</li>
+      <li>Indent size</li>
       <p>タブで挿入されるスペース数</p>
       <li>コードの入力欄</li><br>
-      <li>Add Another File</li>
+      <li>Add file</li>
       <p>入力欄が一つ追加される</p>
-      <li>Create Secret Gist</li>
+      <li>Create secret Gist</li>
       <p>非公開用のGistを作成する</p>
-      <li>Create Public Gist</li>
+      <li>Create public Gist</li>
       <p>公開用で Gistを作成する</p>
     </ul>
 
