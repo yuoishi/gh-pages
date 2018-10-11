@@ -1,6 +1,50 @@
+@charset UTF-8;
+html,body,h1,h2,ul,li,p{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url("../img/ibory.jpg");
+}
+
+#head {
+  background: #35ad23;
+  height: 80px;
+  padding: 10px 10px 0;
+}
+#head p{
+  float: left;
+  padding: 0 20px 0 10px;
+}
+#head a{
+  text-decoration: none;
+  color: #eeddff;
+}
+#head h1 {
+  font-size: 40px;
+  padding-top: 5px;
+}
+ul {
+  list-style-type: circle;
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+li {
+  font-size: 18px;
+  margin: 10px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 h2{
     padding: 0.25em 0.5em;/*上下 左右の余白*/
     color: #3399FF;/*文字色*/
     background: transparent;/*背景透明に*/
     border-left: solid 5px #7db4e6;/*左線*/
+}
+#sample2 {
+     margin: 30px; padding: 10px;
 }
