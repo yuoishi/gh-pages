@@ -27,9 +27,9 @@ A.課題の実装できた課題のタイトル
 
 ・github の pull requestにあるMilestones の使い方 
 
-B.実装できなかった課題のタイトル
-
 ・githubリポジトリのProjectsタブの活用について
+
+B.実装できなかった課題のタイトル
 
 ・githubリポジトリのWikiタブの活用について
 
