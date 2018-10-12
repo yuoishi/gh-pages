@@ -13,34 +13,40 @@ issueの画面作成参考ページのリンク
 
 https://seleck.cc/647
 
-A.課題の実装できた課題のタイトル
+## A.課題の実装できた課題のタイトル
 
-・github の issuesの使い方
+全て
 
-・GithubPagesの作り方と活用方法
+* github の issuesの使い方
 
-・githubのpull requestでLabelや Assigneeの使い方
+* GithubPagesの作り方と活用方法
 
-・github のGistの使い方について
+* githubのpull requestでLabelや Assigneeの使い方
 
-・revert, reset などgitコマンド利用方法の使い方
+* github のGistの使い方について
 
-・github の pull requestにあるMilestones の使い方 
+* revert, reset などgitコマンド利用方法の使い方
 
-・githubリポジトリのProjectsタブの活用について
+* github の pull requestにあるMilestones の使い方 
 
-・githubリポジトリのWikiタブの活用について
+* githubリポジトリのProjectsタブの活用について
 
-・githubリポジトリのInsightsタブでの活動分析について
+* githubリポジトリのWikiタブの活用について
 
-・GitHub と Slack を連携させる方法と利用事例について
+* githubリポジトリのInsightsタブでの活動分析について
 
-B.実装できなかった課題のタイトル
+* github のemoticonやLTTMについて
 
-・github のemoticonやLTTMについて
+* GitHub と Slack を連携させる方法と利用事例について
 
-・ZenHub for GitHubの活用方法について
+* ZenHub for GitHubの活用方法について
 
-C.
+## B.実装できなかった課題のタイトル
 
-D.
+無し
+
+## C.
+
+
+
+## D.
