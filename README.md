@@ -29,15 +29,15 @@ A.課題の実装できた課題のタイトル
 
 ・githubリポジトリのProjectsタブの活用について
 
-B.実装できなかった課題のタイトル
-
 ・githubリポジトリのWikiタブの活用について
 
 ・githubリポジトリのInsightsタブでの活動分析について
 
-・github のemoticonやLTTMについて
-
 ・GitHub と Slack を連携させる方法と利用事例について
+
+B.実装できなかった課題のタイトル
+
+・github のemoticonやLTTMについて
 
 ・ZenHub for GitHubの活用方法について
 
